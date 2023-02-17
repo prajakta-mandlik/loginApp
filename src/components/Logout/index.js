@@ -5,11 +5,9 @@ import './index.css'
 class LogOut extends Component {
   render() {
     return (
-      <div>
-        <button type="button" className="logout-btn">
-          Logout
-        </button>
-      </div>
+      <button type="button" className="logout-btn">
+        Logout
+      </button>
     )
   }
 }

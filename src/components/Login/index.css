@@ -2,6 +2,9 @@
 .login-btn {
   color: #2b2c49;
   background-color: #ffffff;
-  padding: 5px;
+  padding: 10px;
   font-family: roboto;
+  border: 0;
+  width: 70px;
+  border-radius: 10px;
 }

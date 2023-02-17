@@ -4,10 +4,12 @@ import './index.css'
 
 class Message extends Component {
   render() {
+    const {isBtnClicked} = this.props
+
     return (
-      <div className="msg-container">
-        <h1>Please Login</h1>
-      </div>
+      <h1 className="heading">
+        {isBtnClicked ? 'Please Login' : 'Welcome User'}
+      </h1>
     )
   }
 }
