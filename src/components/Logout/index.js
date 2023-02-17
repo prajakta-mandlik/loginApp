@@ -4,11 +4,7 @@ import './index.css'
 
 class LogOut extends Component {
   render() {
-    return (
-      <button type="button" className="logout-btn">
-        Logout
-      </button>
-    )
+    return <p className="logout-btn">Logout</p>
   }
 }
 

@@ -5,13 +5,7 @@ import './index.css'
 
 class Login extends Component {
   render() {
-    return (
-      <div>
-        <button type="button" className="login-btn">
-          Login
-        </button>
-      </div>
-    )
+    return <p className="login-btn">Login</p>
   }
 }
 
